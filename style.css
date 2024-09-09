@@ -1,0 +1,252 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    height: 100px;
+    background-color: black;
+    position: relative;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    left: 20%;
+    bottom: 20px;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+    transition: all .3s;
+    font-weight: 550;
+}
+
+.navbar ul li a:hover {
+    color: rgb(134, 115, 77);
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(134, 115, 77);
+    height: 650px;
+    gap: 5%;
+}
+
+.text {
+    width: 650px;
+}
+
+.text h1 {
+    font-size: 70px;
+}
+
+.text p {
+    font-size: 20px;
+}
+
+.foto img {
+    border-radius: 50%;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    transition: all .5s;
+}
+
+.foto img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    position: relative;
+    background-color: rgb(134, 115, 77);
+    align-items: center;
+}
+
+.edu-container img {
+    border-radius: 15px;
+    width: 250px;
+    position: absolute;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    right: 17.5%;
+    top: 10%;
+    transition: all .5s;
+}
+
+.edu-container img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.pendidikan {
+    position: absolute;
+    left: 15%;
+    top: 10%;
+}
+
+.keterampilan {
+    position: absolute;
+    left: 15%;
+    top: 225px;
+}
+
+.pendidikan h1 {
+    font-size: 50px;
+}
+
+.pendidikan ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.keterampilan h1 {
+    font-size: 50px;
+}
+
+.keterampilan ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.garis1 {
+    position: absolute;
+    top: 0;
+    background-color: black;
+    width: 90%;
+    height: 5px;
+    border-radius: 10px;
+}
+
+.garis2 {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 90%;
+    height: 5px;
+    border-radius: 10px;
+
+}
+
+.project-container {
+    height: 550px;
+    background-color: rgb(134, 115, 77);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-container h1 {
+    font-size: 50px;
+    margin-top: 50px;
+
+}
+
+.box {
+    margin-top: 30px;
+}
+
+.box ul li {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.box ul li a {
+    background-color: white;
+    transition: all .3s;
+    color: black;
+}
+
+.box ul li a:hover {
+    background-color: rgb(134, 115, 77);
+    color: white;
+}
+
+.box ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.box ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.box ul a {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+#box3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.soal {
+    display: flex;
+    font-size: 20px;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: 550;
+    transition: all .3s;
+}
+
+.footer a:hover {
+    color: rgb(134, 115, 77);
+}
+
+.footer strong {
+    color: white;
+    transition: all .3s;
+}
+
+.footer strong:hover {
+    color: rgb(134, 115, 77);
+}
