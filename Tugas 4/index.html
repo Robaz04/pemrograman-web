@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Data Mahasiswa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input">
+            <form method="post" action="display.php" class="form">
+                <label for="npm" required>Masukkan NPM Anda: </label>
+                <input type="text" name="npm">
+                <label for="name">Masukkan Nama Anda: </label>
+                <input type="text" name="name">
+                <label for="address">Masukkan Alamat Anda: </label>
+                <textarea name="address" id=""></textarea>
+                <label for="date">Masukkan tanggal lahir Anda: </label>
+                <input type="date" name="date">
+                <label for="gender">Jenis kelamin Anda: </label>
+                <div class="jk">
+                    <input type="radio" name="gender" value="Laki-laki"> Laki-laki
+                    <input type="radio" name="gender" value="Perempuan"> Perempuan
+                </div>
+                <label for="hobi">Masukkan hobi Anda</label>
+                <input type="text" name="hobi">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
