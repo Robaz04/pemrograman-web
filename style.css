@@ -147,7 +147,7 @@ body {
 }
 
 .project-container {
-    height: 550px;
+    height: 800px;
     background-color: rgb(134, 115, 77);
     position: relative;
     display: flex;
